@@ -3,11 +3,6 @@
 
 # In[2]:
 
-
-
-
-
-
 #################################################################################
 import numpy as np
 import matplotlib.pyplot as plt
@@ -349,7 +344,7 @@ def GetGlobalIsotropy(cs):
     
     return ro 
 
-def GetIsotropy(pitch_,yaw_,thetaL_corr,thetaR_corr,data):
+def GetIsotropy(pitch_,yaw_,thetaL_corr,thetaR_corr,data,get_uniformity):
     
     LL1,LL2,LL3,ALPHA = data
     m,M = 0,np.size(pitch_)
@@ -357,7 +352,7 @@ def GetIsotropy(pitch_,yaw_,thetaL_corr,thetaR_corr,data):
 
     for k in np.arange(m,M,1):
         Jac = J_(pitch_[k],yaw_[k],thetaL_corr[k],thetaR_corr[k],LL1,LL2,LL3,ALPHA)
-        delta_[k] = Get_delta(Jac)
+        delta_[k] = get_uniformity(Jac)
         
     return delta_
 
@@ -384,7 +379,7 @@ def IsoCons_1(P):
 def f_isotropy_evo(P,*data):
             
     LL1,LL2,LL3,ALPHA = P[0],P[1],P[2],P[3]
-    filename_all,Input,N,iThetaL,iThetaR,f = data
+    filename_all,Input,N,iThetaL,iThetaR,f,get_uniformity = data
     dataP = (LL1,LL2,LL3,ALPHA)
     
     global fx_array, NoG_array, NumberOfGeneration
@@ -411,7 +406,7 @@ def f_isotropy_evo(P,*data):
 
         
             # Isotropy
-            delta_ = GetIsotropy(pitch_,yaw_,iThetaL_corr,iThetaR_corr,dataP)
+            delta_ = GetIsotropy(pitch_,yaw_,iThetaL_corr,iThetaR_corr,dataP,get_uniformity)
                             
             # Workspace Area Evaluation
             points = np.array([np.degrees(pitch_),np.degrees(yaw_)])
