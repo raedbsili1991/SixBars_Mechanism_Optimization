@@ -9,7 +9,7 @@ The paper describing the mathematical approach can be found in the following lin
 
 The mechanisms desrcibes a 2DoF parallel wrist consisting of six-bars linkages: 
 
-![](mechanism.gif)
+![](media\mechanism.gif)
 
 Documentation coming soon . . .
 
