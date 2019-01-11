@@ -38,6 +38,6 @@ The optimisations results led to the design of the following prototype, to be te
 The scope of publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, to see their effect on the convergance speed of the optimization problem.  
 This optimization problem could be interesting in particular for Global Optimization researchers. 
 
-The summary of the paper could be found as a 11-slides PowerPoint oral presentation, presented in the conference. 
+The summary of the paper could be found as a 11-slides [PowerPoint oral presentation](https://www.slideshare.net/RaedBsili/an-evolutionary-approach-for-the-optimal-design-of-the-icub-mk3-parallel-wrist), presented in the conference. 
 The presentation summarizes the methodology and the algebraic model behind the posed optimization problem.  
 
