@@ -20,7 +20,7 @@ To optimize the mechanism uniformity and the mechanism range of motion, the foll
 
 ![](media/opt_eq.png)
 
-Where, the mechanism performance is defined algebrically by: 
+Where, the mechanism performance is defined algebrically by next metrics, which we have introduced: 
 
 ![](media/metrics.png)
 
