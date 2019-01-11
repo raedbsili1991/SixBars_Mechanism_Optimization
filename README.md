@@ -15,5 +15,11 @@ Documentation coming soon . . .
 
 The optimisations results led to the design of the following prototype, to be test on iCub forearm: 
 
-
 ![](design_coupled.gif)
+
+The optimization process took around six days to converge to the global optimum, when running the code on a Dual AMD Opteron
+computer  server  with  a 6328 @3.2 GHz processor and 64 GB RAM. 
+The next figure shows the fitness function converging to the maximum value: 
+![](OptimisationResidual.png)
+
+The scope of publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, to see their effect on the convergance speed of the optimization problem.  
