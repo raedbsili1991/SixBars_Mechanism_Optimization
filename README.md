@@ -26,7 +26,7 @@ Where, the mechanism performance is defined algebrically by:
 
 The optimization process took around six days to converge to the global optimum, when running the code on a Dual AMD Opteron
 computer  server  with  a 6328 @3.2 GHz processor and 64 GB RAM. 
-The next figure shows the fitness function converging to the maximum value: 
+Different optimization runs have been performed, and the optimizer converged to the same optimum in each trial: 
 ![](media/OptimisationResidual.png)
 
 
