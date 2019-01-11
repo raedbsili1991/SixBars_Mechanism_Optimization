@@ -1,6 +1,11 @@
 
 # coding: utf-8
 
+# Author: Raed Bsili 
+# Supervisors: Alberto Parmiggiani & Giorgio Metta     
+# Istituto Italiano di Tecnologia (IIT), iCub
+# Octobre 2018
+
 # In[2]:
 
 #################################################################################
