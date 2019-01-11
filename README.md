@@ -1,4 +1,4 @@
-# SixBars_Mechanism_Optimization
+# iCub 3, SixBars_Mechanism_Optimization, Wrist
 
 This is the hosted code used for the evolutionary optimzation of a parallel mechanism for humanoids wrist application. 
 The paper describing the mathematical approach can be found in the following link: 
