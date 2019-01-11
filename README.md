@@ -20,14 +20,20 @@ To optimize the mechanism uniformity and the mechanism range of motion, the foll
 
 ![](media/opt_eq.png)
 
-The optimisations results led to the design of the following prototype, to be test on iCub forearm: 
+Where, the mechanism performance is defined algebrically by: 
 
-![](media/design_coupled.gif)
+![](media/metrics.png)
 
 The optimization process took around six days to converge to the global optimum, when running the code on a Dual AMD Opteron
 computer  server  with  a 6328 @3.2 GHz processor and 64 GB RAM. 
 The next figure shows the fitness function converging to the maximum value: 
 ![](media/OptimisationResidual.png)
+
+
+The optimisations results led to the design of the following prototype, to be test on iCub forearm: 
+
+![](media/design_coupled.gif)
+
 
 The scope of publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, to see their effect on the convergance speed of the optimization problem.  
 This optimization problem could be interesting in particular for Global Optimization researchers. 
