@@ -23,3 +23,8 @@ The next figure shows the fitness function converging to the maximum value:
 ![](OptimisationResidual.png)
 
 The scope of publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, to see their effect on the convergance speed of the optimization problem.  
+This optimization problem could be interesting in particular for Global Optimization researchers. 
+
+The summary of the paper could be found as a 11-slides PowerPoint oral presentation, presented in the conference. 
+The presentation summarizes the methodology and the algebraic model behind the posed optimization problem.  
+
