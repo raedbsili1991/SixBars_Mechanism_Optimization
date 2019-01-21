@@ -28,7 +28,7 @@ Different optimization runs have been performed, and the optimizer converged to 
 ![](media/OptimisationResidual.png)
 
 The optimization process took around six days to converge to the global optimum, when running the code on a Dual AMD Opteron
-computer  server  with  a 6328 @3.2 GHz processor and 64 GB RAM. 
+computer server with a @3.2 GHz processor and 64 GB RAM. 
 
 The optimisations results led to the design of the following prototype, to be test on iCub forearm: 
 
