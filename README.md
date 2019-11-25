@@ -41,3 +41,6 @@ This optimization problem could be interesting in particular for Global Optimiza
 The summary of the paper could be found as a 11-slides [PowerPoint oral presentation](https://www.slideshare.net/RaedBsili/an-evolutionary-approach-for-the-optimal-design-of-the-icub-mk3-parallel-wrist), presented in the conference. 
 The presentation summarizes the methodology and the algebraic model behind the posed optimization problem.  
 
+This study was conducted as a part of the Deictic Communication (DComm) project and has received funding from
+the European Union’s Horizon 2020 research and innovation programme under the Marie Skodowska-Curie Actions grant
+agreement No°676063.
