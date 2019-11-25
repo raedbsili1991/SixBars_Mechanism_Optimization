@@ -24,7 +24,7 @@ Where, the mechanism performance is defined algebrically by the next metrics, wh
 
 ![](media/metrics.png)
 
-Different optimization runs have been performed, and the optimizer converged to the same optimum in each trial: 
+Different optimization runs have been performed, and the optimizer converged after 100 generations to the same optimum in each trial: 
 ![](media/OptimisationResidual.png)
 
 The optimization process took around six days to converge to the global optimum, when running the computations on a Dual AMD Opteron computer server with a @3.2 GHz processor and 64 GB RAM. 
@@ -33,7 +33,7 @@ The optimisations results led to the design of the following prototype, to be te
 
 ![](media/design_coupled.gif)
 
-One of the reasons for publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, to see their effect on the convergance speed of the optimizer.  
+One of the reasons for publishing the code is to allow users to prototype loss functions, tune the DE optimization hyperparameters, and see their effect on the convergance speed of the optimizer.  
 This optimization problem could be interesting in particular for Global Optimization researchers. 
 
 The summary of the paper could be found as a 11-slides [PowerPoint oral presentation](https://www.slideshare.net/RaedBsili/an-evolutionary-approach-for-the-optimal-design-of-the-icub-mk3-parallel-wrist), presented in the conference. 
